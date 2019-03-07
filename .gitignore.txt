@@ -1,0 +1,7 @@
+.ds_store
+thumbs.db
+db.json
+*.log
+mode_modules/
+public/
+.deploy*/

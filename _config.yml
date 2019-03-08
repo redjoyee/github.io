@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zhangyi
-subtitle:
-description:
-keywords:
+title:  xiakexing
+subtitle:  zhangyi
+description:  
+keywords: 
 author: joyee
-language:  zh-cn
+language:  zh-CN
 timezone:  Asia/Shanghai
 
 # URL
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -73,7 +73,16 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hipaper
+##RSS¶©ÔÄ
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+  type:  atom
+  path:atom.xml
+  limit:20
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
